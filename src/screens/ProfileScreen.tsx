@@ -11,10 +11,8 @@ import {
 } from 'react-native';
 
 const ProfilePage = () => {
-  // Animation value for the car
   const carPosition = useRef(new Animated.Value(0)).current;
 
-  // Start the car animation
   useEffect(() => {
     const animateCar = () => {
       carPosition.setValue(-100); // Start from left outside the screen
