@@ -34,6 +34,7 @@ export default function Featured() {
       </View>
       <FlatList
         horizontal
+        showsHorizontalScrollIndicator={false}
         data={featuredProducts}
         keyExtractor={item => item.id}
         renderItem={({item}) => (

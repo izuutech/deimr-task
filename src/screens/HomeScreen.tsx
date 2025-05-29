@@ -13,6 +13,7 @@ import SpecialOffer from '../components/SpecialOffer';
 import FeaturedCategory from '../components/FeaturedCategory';
 import Category from '../components/Category';
 import QuickAccess from '../components/QuickAccess';
+import Tabs from '../components/Tabs';
 
 const HomeScreen = () => {
   // Sample data
@@ -23,6 +24,7 @@ const HomeScreen = () => {
         {/* Header */}
         <Header />
 
+        <Tabs />
         {/* Featured Products */}
         <Featured />
         {/* Promo Banner */}
@@ -63,12 +65,6 @@ const styles = StyleSheet.create({
     fontSize: 18,
     fontWeight: 'bold',
     marginVertical: 12,
-  },
-
-  newBadge: {
-    fontSize: 10,
-    color: '#6200ee',
-    marginTop: 4,
   },
 });
 

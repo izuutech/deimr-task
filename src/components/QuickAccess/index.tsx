@@ -34,6 +34,7 @@ export default function QuickAccess() {
       </View>
       <FlatList
         horizontal
+        showsHorizontalScrollIndicator={false}
         keyExtractor={item => item.title}
         data={quickItems}
         renderItem={({item}) => (
