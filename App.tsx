@@ -10,6 +10,7 @@ import {
   UserIcon,
 } from './src/assets/svgs';
 import HomeStack from './src/navigation/HomeStack';
+import ProfileScreen from './src/screens/ProfileScreen';
 
 const Tab = createBottomTabNavigator();
 
@@ -37,7 +38,7 @@ function App() {
         />
         <Tab.Screen
           name="User"
-          component={HomeStack}
+          component={ProfileScreen}
           options={{
             tabBarIcon: ({color, size}) => <UserIcon color={color} />,
           }}

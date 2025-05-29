@@ -16,9 +16,7 @@ const styles = StyleSheet.create({
   },
   quickAccessContainer: {
     paddingVertical: 12,
-    width: '100%',
   },
-
   quickAccessCard: {
     width: 250,
     paddingVertical: 20,
@@ -28,6 +26,9 @@ const styles = StyleSheet.create({
     borderColor: '#F3F1F1',
     marginBottom: 12,
     marginRight: 15,
+  },
+  accessTop: {
+    borderColor: '#F3F1F1',
     flexDirection: 'row',
     justifyContent: 'space-between',
   },
@@ -50,16 +51,11 @@ const styles = StyleSheet.create({
     color: '#979797',
     marginTop: 4,
   },
-  newBadge: {
-    fontSize: 10,
-    color: '#6200ee',
-    marginTop: 4,
-    alignSelf: 'flex-start',
-    overflow: 'hidden',
-    borderRadius: 10,
-    backgroundColor: 'red',
-    paddingHorizontal: 12,
-    paddingVertical: 5,
+  badgeRow: {
+    width: '100%',
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
   },
 });
 

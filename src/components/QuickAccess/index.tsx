@@ -3,6 +3,7 @@ import React from 'react';
 import styles from './styles';
 import {
   BetaIcon,
+  CaretRightIcon,
   NewIcon,
   RepairIcon,
   ShopIcon,
@@ -15,7 +16,6 @@ export default function QuickAccess() {
       icon: <SwapIcon />,
       title: 'Quick Swap',
       description: 'Instant exchanges',
-      //   badge: 'New',
       badge: <NewIcon />,
     },
     {
@@ -23,7 +23,6 @@ export default function QuickAccess() {
       title: 'Smart Repair',
       description: 'Easy fixes',
       badge: <BetaIcon />,
-      //   badge: 'Beta',
     },
   ];
   return (
@@ -39,13 +38,18 @@ export default function QuickAccess() {
         data={quickItems}
         renderItem={({item}) => (
           <TouchableOpacity style={styles.quickAccessCard}>
-            <View style={styles.iconSection}>
-              <View style={styles.iconbox}>{item.icon}</View>
-              {item.badge}
+            <View style={styles.accessTop}>
+              <View style={styles.iconSection}>
+                <View style={styles.iconbox}>{item.icon}</View>
+              </View>
+              <View style={styles.detailsbox}>
+                <Text style={styles.quickAccessTitle}>{item.title}</Text>
+                <Text style={styles.quickAccessText}>{item.description}</Text>
+              </View>
             </View>
-            <View style={styles.detailsbox}>
-              <Text style={styles.quickAccessTitle}>{item.title}</Text>
-              <Text style={styles.quickAccessText}>{item.description}</Text>
+            <View style={styles.badgeRow}>
+              <View>{item.badge}</View>
+              <CaretRightIcon />
             </View>
           </TouchableOpacity>
         )}
