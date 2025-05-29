@@ -14,6 +14,7 @@ import FeaturedCategory from '../components/FeaturedCategory';
 import Category from '../components/Category';
 import QuickAccess from '../components/QuickAccess';
 import Tabs from '../components/Tabs';
+import Actions from '../components/Actions';
 
 const HomeScreen = () => {
   // Sample data
@@ -23,7 +24,7 @@ const HomeScreen = () => {
       <ScrollView showsVerticalScrollIndicator={false}>
         {/* Header */}
         <Header />
-
+        <Actions />
         <Tabs />
         {/* Featured Products */}
         <Featured />
