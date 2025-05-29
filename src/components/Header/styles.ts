@@ -49,7 +49,7 @@ const styles = StyleSheet.create({
   searchInput: {
     flex: 1,
     height: '100%',
-    fontSize: 16,
+    fontSize: 13,
     color: '#333',
   },
 });
