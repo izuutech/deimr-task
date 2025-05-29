@@ -37,20 +37,20 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   imagebox: {
-    width: '20%', // Dynamically sized relative to screen
-    aspectRatio: 1, // Makes it a perfect square
-    justifyContent: 'center', // Centers image vertically
-    alignItems: 'center', // Centers image horizontally
-    borderRadius: 10, // Fully rounded (like a circle)
+    width: '20%',
+    aspectRatio: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+    borderRadius: 10,
     overflow: 'hidden',
     borderWidth: 0.2,
     borderColor: '#EEEEEE80',
   },
 
   image: {
-    width: '60%', // Scales with container
-    aspectRatio: 1, // Keeps it square
-    resizeMode: 'contain', // Keeps image from stretching
+    width: '60%',
+    aspectRatio: 1,
+    resizeMode: 'contain',
   },
   detailsbox: {
     width: '70%',

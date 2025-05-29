@@ -28,7 +28,6 @@ export default function Category() {
 
   return (
     <View>
-      <Text style={styles.sectionTitle}>Categories</Text>
       <View style={styles.categoriesContainer}>
         {categories.map((category, index) => (
           <TouchableOpacity key={category.id} style={styles.categoryCard}>
