@@ -2,11 +2,11 @@ import {StyleSheet} from 'react-native';
 
 const styles = StyleSheet.create({
   promoBanner: {
-    backgroundColor: '#0A0B0F',
     padding: 16,
     borderRadius: 8,
     marginVertical: 16,
     flexDirection: 'row',
+    justifyContent: 'space-between',
     alignItems: 'center',
   },
   specialbox: {
