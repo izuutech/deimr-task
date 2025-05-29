@@ -2,18 +2,33 @@ import {StyleSheet} from 'react-native';
 
 const styles = StyleSheet.create({
   mainHeader: {
-    padding: 16,
+    width: '100%',
+    paddingHorizontal: '2.5%',
     backgroundColor: '#fff',
-    paddingTop: 50,
+    paddingTop: 20,
   },
-  headerTop: {
+  userbox: {
     flexDirection: 'row',
-    justifyContent: 'space-between',
     alignItems: 'center',
-    marginBottom: 16,
+    marginBottom: 20,
   },
-  headerIcons: {
-    flexDirection: 'row',
+  imagebox: {
+    width: '10%',
+    aspectRatio: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+    borderRadius: 9999,
+    overflow: 'hidden',
+    marginRight: 10,
+  },
+  image: {
+    width: '100%',
+    height: '100%',
+    resizeMode: 'cover',
+  },
+  greeting: {
+    fontWeight: 'bold',
+    fontSize: 16,
   },
   icon: {
     marginRight: 16,
@@ -21,8 +36,10 @@ const styles = StyleSheet.create({
   searchContainer: {
     flexDirection: 'row',
     alignItems: 'center',
-    backgroundColor: '#f5f5f5',
-    borderRadius: 10,
+    backgroundColor: '#fff',
+    borderRadius: 15,
+    borderWidth: 0.5,
+    borderColor: '#ABABAB80',
     paddingHorizontal: 12,
     height: 48,
   },

@@ -9,6 +9,7 @@ import ClockIcon from './clock.svg';
 import TruckIcon from './group.svg';
 import BagIcon from './bag-2.svg';
 import InfoCircleIcon from './info-circle.svg';
+import SearchIcon from './search-normal.svg';
 
 export {
   ArrowRight,
@@ -22,4 +23,5 @@ export {
   TruckIcon,
   BagIcon,
   InfoCircleIcon,
+  SearchIcon,
 };

@@ -13,17 +13,17 @@ export default function Category() {
     {
       id: '1',
       name: 'Food',
-      items: '3.8k',
+      items: '2.6k',
       description: 'Explore delicious options',
     },
     {
       id: '2',
       name: 'Electronics',
-      items: '2.4k',
+      items: '12k',
       description: 'Discover latest gadgets',
     },
-    {id: '3', name: 'Fashion', items: '4.5k', description: 'Trending styles'},
-    {id: '4', name: 'Game', items: '1.7k', description: 'Play exciting games'},
+    {id: '3', name: 'Fashion', items: '3.8k', description: 'Trending styles'},
+    {id: '4', name: 'Game', items: '4.5k', description: 'Play exciting games'},
   ];
 
   return (
