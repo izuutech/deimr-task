@@ -1,26 +1,48 @@
-import 'react-native-gesture-handler';
-import React from 'react';
-import {NavigationContainer, RouteProp} from '@react-navigation/native';
-import {
-  createStackNavigator,
-  StackNavigationProp,
-} from '@react-navigation/stack';
+import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
+import {NavigationContainer} from '@react-navigation/native';
+import FloatingTabBar from './src/components/FloatingTabbar';
 import HomeScreen from './src/screens/HomeScreen';
-import {RootStackParamList} from './src/types/navigation';
-import {SafeAreaView} from 'react-native-safe-area-context';
+import {
+  ClockIcon,
+  HomeIcon,
+  MenuIcon,
+  SearchIcon,
+  UserIcon,
+} from './src/assets/svgs';
+import HomeStack from './src/navigation/HomeStack';
 
-const Stack = createStackNavigator<RootStackParamList>();
+const Tab = createBottomTabNavigator();
 
-function App(): React.JSX.Element {
+function App() {
   return (
     <NavigationContainer>
-      <Stack.Navigator initialRouteName="Home">
-        <Stack.Screen
+      <Tab.Navigator
+        tabBar={props => <FloatingTabBar {...props} />}
+        screenOptions={{
+          headerShown: false,
+        }}>
+        <Tab.Screen
           name="Home"
-          component={HomeScreen}
-          options={{headerShown: false}}
+          component={HomeStack}
+          options={{
+            tabBarIcon: ({color, size}) => <HomeIcon color={color} />,
+          }}
         />
-      </Stack.Navigator>
+        <Tab.Screen
+          name="Menu"
+          component={HomeStack}
+          options={{
+            tabBarIcon: ({color, size}) => <MenuIcon color={color} />,
+          }}
+        />
+        <Tab.Screen
+          name="User"
+          component={HomeStack}
+          options={{
+            tabBarIcon: ({color, size}) => <UserIcon color={color} />,
+          }}
+        />
+      </Tab.Navigator>
     </NavigationContainer>
   );
 }

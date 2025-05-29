@@ -2021,6 +2021,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@react-native-community/blur@npm:^4.4.1":
+  version: 4.4.1
+  resolution: "@react-native-community/blur@npm:4.4.1"
+  peerDependencies:
+    react: "*"
+    react-native: "*"
+  checksum: 1e47144b0c00dce562e72ea9f6c3e93d3bb392ec0ea001ce37ff801d9a496c9801927033ee4800bf92ea2ece9de0abe596715add3b7afe3c5d1533e260f5e09e
+  languageName: node
+  linkType: hard
+
 "@react-native-community/cli-clean@npm:14.1.0":
   version: 14.1.0
   resolution: "@react-native-community/cli-clean@npm:14.1.0"
@@ -2420,6 +2430,22 @@ __metadata:
     "@types/react":
       optional: true
   checksum: 52d32e0f5e8ac945e7d33dab25840fb10d72710a587934849d051c0c9f30e941e49751a71ee26351c98579824d251c2cc88ff74a13cee2095db5a496ea766c20
+  languageName: node
+  linkType: hard
+
+"@react-navigation/bottom-tabs@npm:^7.3.13":
+  version: 7.3.13
+  resolution: "@react-navigation/bottom-tabs@npm:7.3.13"
+  dependencies:
+    "@react-navigation/elements": ^2.4.2
+    color: ^4.2.3
+  peerDependencies:
+    "@react-navigation/native": ^7.1.9
+    react: ">= 18.2.0"
+    react-native: "*"
+    react-native-safe-area-context: ">= 4.0.0"
+    react-native-screens: ">= 4.0.0"
+  checksum: 2387205f6f8689bcfc7f6b50cc66e1b6108fee02eb18ae6a801586f8499d3e9f589e98110a6a4128d4c5be2072ccafdd8590ac2d3081fa5393f72bdc4cf039bb
   languageName: node
   linkType: hard
 
@@ -3090,10 +3116,12 @@ __metadata:
     "@babel/core": ^7.20.0
     "@babel/preset-env": ^7.20.0
     "@babel/runtime": ^7.20.0
+    "@react-native-community/blur": ^4.4.1
     "@react-native/babel-preset": 0.75.3
     "@react-native/eslint-config": 0.75.3
     "@react-native/metro-config": 0.75.3
     "@react-native/typescript-config": 0.75.3
+    "@react-navigation/bottom-tabs": ^7.3.13
     "@react-navigation/native": ^7.1.9
     "@react-navigation/stack": ^7.3.2
     "@types/react": ^18.2.6
