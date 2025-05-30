@@ -22,7 +22,8 @@ const styles = StyleSheet.create({
     marginTop: 4,
   },
   productsContainer: {
-    paddingVertical: 12,
+    paddingTop: 8,
+    paddingBottom: 18,
   },
   productCard: {
     width: 130,
