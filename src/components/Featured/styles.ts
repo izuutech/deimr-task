@@ -7,7 +7,7 @@ const styles = StyleSheet.create({
     paddingLeft: '5%',
   },
   header: {
-    marginTop: 24,
+    marginTop: 20,
     marginBottom: 16,
     color: '#fff',
   },
@@ -22,11 +22,11 @@ const styles = StyleSheet.create({
     marginTop: 4,
   },
   productsContainer: {
-    paddingBottom: 12,
+    paddingVertical: 12,
   },
   productCard: {
-    width: 150,
-    marginRight: 16,
+    width: 130,
+    marginRight: 10,
     padding: 8,
     backgroundColor: '#ffffff20',
     borderRadius: 11,
@@ -34,8 +34,8 @@ const styles = StyleSheet.create({
     borderColor: '#E3E0E033',
   },
   productImage: {
-    width: 134,
-    height: 100,
+    width: 114,
+    height: 80,
     borderRadius: 8,
     overflow: 'hidden',
     alignSelf: 'center',
