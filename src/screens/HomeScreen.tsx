@@ -9,13 +9,14 @@ import Category from '../components/Category';
 import QuickAccess from '../components/QuickAccess';
 import Tabs from '../components/Tabs';
 import Actions from '../components/Actions';
+import SearchBox from '../components/SearchBox';
 
 const HomeScreen = () => {
   return (
     <SafeAreaView style={styles.container}>
+      <Header />
       <ScrollView showsVerticalScrollIndicator={false}>
-        {/* Header */}
-        <Header />
+        <SearchBox />
         <Actions />
         <Tabs />
         {/* Featured Products */}

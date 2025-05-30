@@ -5,7 +5,6 @@ const styles = StyleSheet.create({
     width: '100%',
     paddingHorizontal: '2.5%',
     backgroundColor: '#fff',
-    paddingTop: 20,
   },
   userbox: {
     flexDirection: 'row',
@@ -29,28 +28,6 @@ const styles = StyleSheet.create({
   greeting: {
     fontWeight: 'bold',
     fontSize: 16,
-  },
-  icon: {
-    marginRight: 16,
-  },
-  searchContainer: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    backgroundColor: '#fff',
-    borderRadius: 15,
-    borderWidth: 0.5,
-    borderColor: '#ABABAB80',
-    paddingHorizontal: 12,
-    height: 48,
-  },
-  searchIcon: {
-    marginRight: 8,
-  },
-  searchInput: {
-    flex: 1,
-    height: '100%',
-    fontSize: 13,
-    color: '#333',
   },
 });
 

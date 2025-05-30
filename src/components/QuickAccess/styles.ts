@@ -26,6 +26,12 @@ const styles = StyleSheet.create({
     borderColor: '#F3F1F1',
     marginBottom: 12,
     marginRight: 15,
+
+    shadowColor: '#F3F1F1',
+    shadowOffset: {width: 2, height: 2},
+    shadowOpacity: 0.85,
+    shadowRadius: 3.84,
+    elevation: 5,
   },
   accessTop: {
     borderColor: '#F3F1F1',

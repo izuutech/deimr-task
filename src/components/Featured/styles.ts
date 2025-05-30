@@ -12,7 +12,7 @@ const styles = StyleSheet.create({
     color: '#fff',
   },
   headerTitle: {
-    fontSize: 24,
+    fontSize: 18,
     fontWeight: 'bold',
     color: '#fff',
   },
@@ -22,19 +22,19 @@ const styles = StyleSheet.create({
     marginTop: 4,
   },
   productsContainer: {
-    paddingVertical: 12,
+    paddingBottom: 12,
   },
   productCard: {
     width: 150,
     marginRight: 16,
     padding: 8,
     backgroundColor: '#ffffff20',
-    borderRadius: 8,
+    borderRadius: 11,
     borderWidth: 1,
     borderColor: '#E3E0E033',
   },
   productImage: {
-    width: 130,
+    width: 134,
     height: 100,
     borderRadius: 8,
     overflow: 'hidden',

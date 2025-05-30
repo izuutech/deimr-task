@@ -43,8 +43,8 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     borderRadius: 10,
     overflow: 'hidden',
-    borderWidth: 0.2,
-    borderColor: '#EEEEEE80',
+    borderWidth: 1,
+    borderColor: '#EEEEEE90',
   },
 
   image: {

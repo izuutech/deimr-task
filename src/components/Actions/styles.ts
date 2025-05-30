@@ -14,7 +14,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   iconbox: {
-    padding: 5,
+    padding: 10,
     borderRadius: 10,
     borderWidth: 1,
     borderColor: '#CCCCCC33',

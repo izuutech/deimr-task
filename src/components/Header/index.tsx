@@ -16,15 +16,6 @@ export default function Header() {
         </View>
         <Text style={styles.greeting}>Hello, Chidinma</Text>
       </View>
-      {/* Search Bar */}
-      <View style={styles.searchContainer}>
-        <TextInput
-          placeholder="search deimr"
-          style={styles.searchInput}
-          placeholderTextColor="#999"
-        />
-        <SearchIcon color="#999" style={styles.searchIcon} />
-      </View>
     </View>
   );
 }

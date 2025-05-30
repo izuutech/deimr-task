@@ -3,7 +3,6 @@ import React from 'react';
 import styles from './styles';
 
 export default function Featured() {
-  const image1 = require('../../assets/pngs/pasta.png');
   const featuredProducts = [
     {
       id: '1',

@@ -7,7 +7,7 @@ export default function FeaturedCategory() {
   const featuredCategories = [
     {
       id: '1',
-      name: 'iPhone',
+      name: 'iPhones',
       tag: 'Trending 🔥',
       products: '143 new products',
       image: require('../../assets/pngs/iphone.png'),

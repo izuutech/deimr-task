@@ -5,12 +5,12 @@ const styles = StyleSheet.create({
     paddingHorizontal: 20,
     paddingVertical: 10,
     alignSelf: 'flex-start',
-    borderRadius: 15,
+    borderRadius: 10,
     marginRight: 10,
-    marginVertical: 10,
+    marginBottom: 20,
   },
   tabtext: {
-    fontWeight: '300',
+    fontWeight: '400',
   },
 });
 
