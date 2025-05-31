@@ -2,12 +2,14 @@ import {StyleSheet} from 'react-native';
 
 const styles = StyleSheet.create({
   promoBanner: {
-    padding: 16,
+    paddingHorizontal: 25,
+    paddingVertical: 26,
     borderRadius: 8,
     marginVertical: 16,
     flexDirection: 'row',
     justifyContent: 'space-between',
     alignItems: 'center',
+    overflow: 'hidden',
   },
   specialbox: {
     paddingHorizontal: 10,
@@ -27,13 +29,16 @@ const styles = StyleSheet.create({
     color: '#fff',
   },
   promoText: {
-    fontSize: 14,
+    fontSize: 12,
     color: '#ffffff80',
     marginTop: 4,
   },
   image: {
-    width: 100,
-    height: 100,
+    position: 'absolute',
+    right: -10,
+    top: -60,
+    width: 120,
+    height: 120,
   },
 });
 

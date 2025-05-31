@@ -23,10 +23,32 @@ const HomeScreen = () => {
         <Featured />
         {/* Promo Banner */}
         <SpecialOffer
-          title="Apple watch SE"
-          description="Order now and enjoy 30% discount"
-          image={require('../assets/pngs/watches.png')}
-          backgroundColor="#0A0B0F"
+          offers={[
+            {
+              title: 'Apple watch SE',
+              description: 'Order now and enjoy 30% discount',
+              backgroundColor: '#0A0B0F',
+              image: require('../assets/pngs/watches.png'),
+              specialType: 'Special',
+            },
+            {
+              title: 'Fashion',
+              description: 'Enjoy 30% discount',
+              imageBg: require('../assets/pngs/girls.png'),
+              titleColor: '#4D281A',
+              descriptionColor: '#75380B',
+              backgroundColor: 'FE9C9C38',
+              specialType: 'Special',
+            },
+            {
+              title: 'Cheese Burger',
+              description: 'Order now and enjoy 30% discount',
+              backgroundColor: '#0A0B0F',
+              image: require('../assets/pngs/burger.png'),
+              specialType: 'Oven fresh',
+              imageStyle: {width: 150, height: 150, top: -75, right: -35},
+            },
+          ]}
         />
 
         {/* Categories */}
@@ -35,12 +57,17 @@ const HomeScreen = () => {
         {/* Quick Access */}
         <QuickAccess />
         <SpecialOffer
-          title="Fashion"
-          description="Enjoy 30% discount"
-          imageBg={require('../assets/pngs/girls.png')}
-          titleColor={'#4D281A'}
-          descriptionColor={'#75380B'}
-          backgroundColor="#FE9C9C38"
+          offers={[
+            {
+              title: 'Fashion',
+              description: 'Enjoy 30% discount',
+              imageBg: require('../assets/pngs/girls.png'),
+              titleColor: '#4D281A',
+              descriptionColor: '#75380B',
+              backgroundColor: 'FE9C9C38',
+              specialType: 'Special',
+            },
+          ]}
         />
         {/* Featured Categories */}
         <FeaturedCategory />
